@@ -1,0 +1,62 @@
+{
+  "name": "Vaca Muerta Pro Oscuro",
+  "dataColors": [
+    "#4FC3E8",
+    "#F2B544",
+    "#5FD08A",
+    "#B388EB",
+    "#FF8A5B",
+    "#E05B6B",
+    "#8FD6C8",
+    "#F7E06E",
+    "#9FB3C8",
+    "#C98A5E"
+  ],
+  "background": "#0F1E2B",
+  "secondaryBackground": "#1A2C3A",
+  "foreground": "#E6EDF3",
+  "foregroundNeutralSecondary": "#AEB9C4",
+  "foregroundNeutralTertiary": "#7E8C98",
+  "tableAccent": "#4FC3E8",
+  "good": "#5FD08A",
+  "neutral": "#F2B544",
+  "bad": "#E05B6B",
+  "maximum": "#4FC3E8",
+  "center": "#F2B544",
+  "minimum": "#1A2C3A",
+  "null": "#5A6B78",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#E6EDF3" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#AEB9C4" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 34, "color": "#4FC3E8" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#C9D4DE" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#152433" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#27394A" } }, "radius": 12 }],
+        "dropShadow": [{ "show": true, "preset": "Custom", "angle": 90, "shadowDistance": 2, "shadowBlur": 14, "shadowSpread": 0, "transparency": 80 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#E6EDF3" } }, "fontSize": 13, "fontFamily": "Segoe UI Semibold", "alignment": "left", "titleWrap": false }],
+        "valueAxis": [{ "gridlineShow": true, "gridlineColor": { "solid": { "color": "#23384A" } }, "gridlineThickness": 1, "gridlineStyle": "solid" }],
+        "categoryAxis": [{ "gridlineShow": false }],
+        "legend": [{ "show": true, "position": "Top", "fontSize": 10, "labelColor": { "solid": { "color": "#AEB9C4" } } }]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#152433" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#27394A" } }, "radius": 12 }],
+        "dropShadow": [{ "show": true, "preset": "Custom", "angle": 90, "shadowDistance": 2, "shadowBlur": 14, "shadowSpread": 0, "transparency": 80 }],
+        "value": [{ "textClass": "callout" }],
+        "label": [{ "position": "aboveValue", "fontSize": 11, "fontColor": { "solid": { "color": "#AEB9C4" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#152433" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#27394A" } }, "radius": 12 }]
+      }
+    }
+  }
+}

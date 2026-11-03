@@ -1,0 +1,27 @@
+# Datos: se regeneran corriendo los scripts, no se versionan
+data/raw/
+data/processed/
+*.duckdb
+*.duckdb.wal
+
+# Entorno virtual de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Notas de trabajo internas (no van al repo)
+CONTEXTO-para-claude-windows.md
+GUIA-POWER-BI.md
+GUIA-POWERBI.md
+post_linkedin.md
+
+# Versiones viejas / archivos superados (se versiona solo lo final)
+vaca_muerta_dashboard.pbix
+vaca_muerta_dashboard_v2.pdf
+tema_vaca_muerta.json
+tema_vaca_muerta_oscuro.json
